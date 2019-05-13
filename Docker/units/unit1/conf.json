@@ -1,0 +1,55 @@
+{
+    "unitNumber" : 1,
+    "automata" : {
+        "automata1" : {
+            "unitNumber" : 1,
+            "automataNumber" : 1,
+            "automataType" : "0X0000BA20"
+        },
+        "automata2" : {
+            "unitNumber" : 1,
+            "automataNumber" : 2,
+            "automataType" : "0X0000BA2F"
+        },
+        "automata3" : {
+            "unitNumber" : 1,
+            "automataNumber" : 3,
+            "automataType" : "0X0000BA23"
+        },
+        "automata4" : {
+            "unitNumber" : 1,
+            "automataNumber" : 4,
+            "automataType" : "0X0000BA2E"
+        },
+        "automata5" : {
+            "unitNumber" : 1,
+            "automataNumber" : 5,
+            "automataType" : "0X0000BA26"
+        },
+        "automata6" : {
+            "unitNumber" : 1,
+            "automataNumber" : 6,
+            "automataType" : "0X0000BA27"
+        },
+        "automata7" : {
+            "unitNumber" : 1,
+            "automataNumber" : 7,
+            "automataType" : "0X0000BA2A"
+        },
+        "automata8" : {
+            "unitNumber" : 1,
+            "automataNumber" : 8,
+            "automataType" : "0X0000BA25"
+        },
+        "automata9" : {
+            "unitNumber" : 1,
+            "automataNumber" : 9,
+            "automataType" : "0X0000BA21"
+        },
+        "automata10" : {
+            "unitNumber" : 1,
+            "automataNumber" : 10,
+            "automataType" : "0X0000BA27"
+        }
+    }
+}

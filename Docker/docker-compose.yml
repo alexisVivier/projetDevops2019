@@ -1,0 +1,33 @@
+version: '3.5'
+
+services:
+
+  unit1:
+    build:
+      context: .
+      dockerfile: ./units/Dockerfile
+    container_name: unit-1
+
+  unit2:
+    build:
+      context: .
+      dockerfile: ./units/Dockerfile
+    container_name: unit-2
+
+  unit3:
+    build:
+      context: .
+      dockerfile: ./units/Dockerfile
+    container_name: unit-3
+
+  unit4:
+    build:
+      context: .
+      dockerfile: ./units/Dockerfile
+    container_name: unit-4
+
+  unit5:
+    build:
+      context: .
+      dockerfile: ./units/Dockerfile
+    container_name: unit-5
