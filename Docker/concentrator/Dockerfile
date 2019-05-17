@@ -1,3 +1,3 @@
 FROM python:3.7
 
-COPY ./server.py /home/scripts
+ADD ./server.py /home/scripts
