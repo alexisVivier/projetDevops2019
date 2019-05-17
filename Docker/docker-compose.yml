@@ -5,29 +5,35 @@ services:
   unit1:
     build:
       context: .
-      dockerfile: ./units/Dockerfile
+      dockerfile: ./units/unit1/Dockerfile
     container_name: unit-1
 
   unit2:
     build:
       context: .
-      dockerfile: ./units/Dockerfile
+      dockerfile: ./units/unit2/Dockerfile
     container_name: unit-2
 
   unit3:
     build:
       context: .
-      dockerfile: ./units/Dockerfile
+      dockerfile: ./units/unit3/Dockerfile
     container_name: unit-3
 
   unit4:
     build:
       context: .
-      dockerfile: ./units/Dockerfile
+      dockerfile: ./units/unit4/Dockerfile
     container_name: unit-4
 
   unit5:
     build:
       context: .
-      dockerfile: ./units/Dockerfile
+      dockerfile: ./units/unit5/Dockerfile
     container_name: unit-5
+
+  concentrator:
+    build:
+      context: .
+      dockerfile: ./concentrator/Dockerfile
+    container_name: concentrator
