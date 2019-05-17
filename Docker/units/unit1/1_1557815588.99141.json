@@ -1,0 +1,183 @@
+{
+    "unitNumber": 1,
+    "automate1": [
+        {
+            "automateNumber": 1,
+            "automateType": "0X0000BA20",
+            "data": {
+                "temp_cuve": 2.7,
+                "temp_ext": 12.3,
+                "poids_lait_cuve": 4334,
+                "poids_produit": 0,
+                "mesure_ph": 7.0,
+                "mesure_k": 38,
+                "NaCi": 1.1,
+                "n_bact_salmon": 27,
+                "n_bact_ecoli": 36,
+                "n_bact_listeria": 52
+            }
+        }
+    ],
+    "automate2": [
+        {
+            "automateNumber": 2,
+            "automateType": "0X0000BA2F",
+            "data": {
+                "temp_cuve": 2.6,
+                "temp_ext": 13.9,
+                "poids_lait_cuve": 3865,
+                "poids_produit": 0,
+                "mesure_ph": 6.9,
+                "mesure_k": 40,
+                "NaCi": 1.1,
+                "n_bact_salmon": 31,
+                "n_bact_ecoli": 45,
+                "n_bact_listeria": 33
+            }
+        }
+    ],
+    "automate3": [
+        {
+            "automateNumber": 3,
+            "automateType": "0X0000BA23",
+            "data": {
+                "temp_cuve": 2.9,
+                "temp_ext": 9.2,
+                "poids_lait_cuve": 4571,
+                "poids_produit": 0,
+                "mesure_ph": 6.9,
+                "mesure_k": 40,
+                "NaCi": 1.6,
+                "n_bact_salmon": 29,
+                "n_bact_ecoli": 36,
+                "n_bact_listeria": 52
+            }
+        }
+    ],
+    "automate4": [
+        {
+            "automateNumber": 4,
+            "automateType": "0X0000BA2E",
+            "data": {
+                "temp_cuve": 2.8,
+                "temp_ext": 8.8,
+                "poids_lait_cuve": 3703,
+                "poids_produit": 0,
+                "mesure_ph": 7.2,
+                "mesure_k": 38,
+                "NaCi": 1.5,
+                "n_bact_salmon": 32,
+                "n_bact_ecoli": 38,
+                "n_bact_listeria": 28
+            }
+        }
+    ],
+    "automate5": [
+        {
+            "automateNumber": 5,
+            "automateType": "0X0000BA26",
+            "data": {
+                "temp_cuve": 3.2,
+                "temp_ext": 9.2,
+                "poids_lait_cuve": 3623,
+                "poids_produit": 0,
+                "mesure_ph": 6.8,
+                "mesure_k": 40,
+                "NaCi": 1.1,
+                "n_bact_salmon": 23,
+                "n_bact_ecoli": 47,
+                "n_bact_listeria": 41
+            }
+        }
+    ],
+    "automate6": [
+        {
+            "automateNumber": 6,
+            "automateType": "0X0000BA27",
+            "data": {
+                "temp_cuve": 3.2,
+                "temp_ext": 9.0,
+                "poids_lait_cuve": 4102,
+                "poids_produit": 0,
+                "mesure_ph": 7.0,
+                "mesure_k": 39,
+                "NaCi": 1.5,
+                "n_bact_salmon": 34,
+                "n_bact_ecoli": 45,
+                "n_bact_listeria": 41
+            }
+        }
+    ],
+    "automate7": [
+        {
+            "automateNumber": 7,
+            "automateType": "0X0000BA2A",
+            "data": {
+                "temp_cuve": 4.0,
+                "temp_ext": 13.9,
+                "poids_lait_cuve": 4104,
+                "poids_produit": 0,
+                "mesure_ph": 7.0,
+                "mesure_k": 46,
+                "NaCi": 1.5,
+                "n_bact_salmon": 27,
+                "n_bact_ecoli": 44,
+                "n_bact_listeria": 47
+            }
+        }
+    ],
+    "automate8": [
+        {
+            "automateNumber": 8,
+            "automateType": "0X0000BA25",
+            "data": {
+                "temp_cuve": 3.9,
+                "temp_ext": 8.3,
+                "poids_lait_cuve": 4479,
+                "poids_produit": 0,
+                "mesure_ph": 7.1,
+                "mesure_k": 44,
+                "NaCi": 1.6,
+                "n_bact_salmon": 20,
+                "n_bact_ecoli": 39,
+                "n_bact_listeria": 47
+            }
+        }
+    ],
+    "automate9": [
+        {
+            "automateNumber": 9,
+            "automateType": "0X0000BA21",
+            "data": {
+                "temp_cuve": 3.5,
+                "temp_ext": 12.5,
+                "poids_lait_cuve": 3835,
+                "poids_produit": 0,
+                "mesure_ph": 6.8,
+                "mesure_k": 39,
+                "NaCi": 1.4,
+                "n_bact_salmon": 28,
+                "n_bact_ecoli": 43,
+                "n_bact_listeria": 50
+            }
+        }
+    ],
+    "automate10": [
+        {
+            "automateNumber": 10,
+            "automateType": "0X0000BA27",
+            "data": {
+                "temp_cuve": 2.8,
+                "temp_ext": 11.2,
+                "poids_lait_cuve": 3634,
+                "poids_produit": 0,
+                "mesure_ph": 6.9,
+                "mesure_k": 40,
+                "NaCi": 1.4,
+                "n_bact_salmon": 18,
+                "n_bact_ecoli": 44,
+                "n_bact_listeria": 45
+            }
+        }
+    ]
+}

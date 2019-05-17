@@ -1,5 +1,8 @@
 import random
 import json
+import time
+import os
+import datetime
 
 i = 1
 
@@ -9,10 +12,12 @@ if 'conf.json':
 
 finalData = {"unitNumber" : confstore["unitNumber"],}
 
+oldFileName = "1_" + str(datetime.datetime.now() - datetime.timedelta(minutes=1))
+
 while i <= 10:
 
     if 'data.json':
-        with open('data.json', 'r') as f:
+        with open("%s.json" % oldFileName, 'r') as f:
             datastore = json.load(f)
 
     currAuto = "automate" + str(i)
@@ -40,12 +45,10 @@ while i <= 10:
             "data" : data
         },
 
-
-
     i+=1
 
+fileName = "1_" + str(time.time()) + ""
 
-
-with open('data.json', 'w') as outfile:
+with open("%s.json" % fileName, 'w') as outfile:
     json.dump(finalData, outfile)
 
