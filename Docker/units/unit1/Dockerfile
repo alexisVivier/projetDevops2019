@@ -5,10 +5,10 @@ FROM python:3.7
 RUN apt-get update && apt-get -y install cron
 
 # On copie le script de génération de la donnée vers les conteneurs
-COPY ./script.py /home/scripts
+ADD ./unit1/script.py /home/scripts
 
 # Cron into the container
-COPY ./crontab /home/crontab
+ADD ./unit1/crontab /home/crontab
 
 # On donne les droits 
 RUN chmod +x /home/crontab
@@ -17,4 +17,4 @@ RUN chmod +x /home/crontab
 RUN crontab /home/crontab
 
 # On copie le fichier de conf de l'unité
-COPY ./conf.json /home/config
+ADD ./unit1/conf.json /home/config
