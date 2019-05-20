@@ -1,3 +1,3 @@
 FROM python:3.7
 
-ADD ./server.py /home/scripts
+ADD ./concentrator/server.py /home/scripts
