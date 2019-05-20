@@ -17,4 +17,4 @@ RUN chmod +x /home/crontab
 RUN crontab /home/crontab
 
 # On copie le fichier de conf de l'unité
-COPY conf.json /home/config
+COPY ./units/unit5/conf.json /home/config
