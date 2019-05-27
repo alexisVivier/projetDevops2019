@@ -6,7 +6,7 @@ import datetime
 
 i = 1
 
-if 'conf.json':
+if '../config/conf.json':
         with open('conf.json', 'r') as f:
             confstore = json.load(f)
 

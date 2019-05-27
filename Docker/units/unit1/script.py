@@ -6,9 +6,9 @@ import datetime
 
 i = 1
 
-if 'conf.json':
-        with open('conf.json', 'r') as f:
-            confstore = json.load(f)
+if '../config/conf.json':
+    with open('conf.json', 'r') as f:
+        confstore = json.load(f)
 
 finalData = {"unitNumber" : confstore["unitNumber"],}
 
@@ -16,9 +16,9 @@ oldFileName = "1_" + str(datetime.datetime.now() - datetime.timedelta(minutes=1)
 
 while i <= 10:
 
-    if 'data.json':
-        with open("%s.json" % oldFileName, 'r') as f:
-            datastore = json.load(f)
+    # if 'data.json':
+    #     with open("%s.json" % oldFileName, 'r') as f:
+    #         datastore = json.load(f)
 
     currAuto = "automate" + str(i)
 

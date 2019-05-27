@@ -2,6 +2,12 @@ version: '3.5'
 
 services:
 
+  concentrator:
+    build:
+      context: .
+      dockerfile: ./concentrator/Dockerfile
+    container_name: concentrator
+
   unit1:
     build:
       context: .
@@ -31,9 +37,3 @@ services:
       context: .
       dockerfile: ./units/unit5/Dockerfile
     container_name: unit5
-
-  concentrator:
-    build:
-      context: .
-      dockerfile: ./concentrator/Dockerfile
-    container_name: concentrator
