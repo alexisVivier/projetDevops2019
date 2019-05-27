@@ -51,10 +51,10 @@ while i <= 10:
 fileName = "1_" + str(time.time()) + ""
 
 with open("%s.json" % fileName, 'w') as outfile:
-    json.dump(finalData, outfile)
+    json.dump(finalData, outfile, indent=1)
 
 
-hote = "localhost"
+hote = "172.17.111.70"
 port = 15555
 
 socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

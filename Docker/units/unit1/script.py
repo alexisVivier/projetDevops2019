@@ -54,7 +54,7 @@ with open("%s.json" % fileName, 'w') as outfile:
     json.dump(finalData, outfile)
 
 
-hote = "localhost"
+hote = "172.17.111.70"
 port = 15555
 
 socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

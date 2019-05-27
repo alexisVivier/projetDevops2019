@@ -7,33 +7,51 @@ services:
       context: .
       dockerfile: ./concentrator/Dockerfile
     container_name: concentrator
+    networks:
+      testing_net:
+          ipv4_address: 172.17.111.70
 
   unit1:
     build:
       context: .
       dockerfile: ./units/unit1/Dockerfile
     container_name: unit1
+    networks:
+      testing_net:
+          ipv4_address: 172.17.111.71
 
   unit2:
     build:
       context: .
       dockerfile: ./units/unit2/Dockerfile
     container_name: unit2
+    networks:
+      testing_net:
+          ipv4_address: 172.17.111.72
 
   unit3:
     build:
       context: .
       dockerfile: ./units/unit3/Dockerfile
     container_name: unit3
+    networks:
+      testing_net:
+          ipv4_address: 172.17.111.73
 
   unit4:
     build:
       context: .
       dockerfile: ./units/unit4/Dockerfile
     container_name: unit4
+    networks:
+      testing_net:
+          ipv4_address: 172.17.111.74
 
   unit5:
     build:
       context: .
       dockerfile: ./units/unit5/Dockerfile
     container_name: unit5
+    networks:
+      testing_net:
+          ipv4_address: 172.17.111.75
