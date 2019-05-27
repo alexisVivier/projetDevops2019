@@ -23,14 +23,13 @@ while i <= 10:
 
     currAuto = "automata" + str(i)
 
+    # On récupère l'ancienne valeur
     #poids_lait_cuve_old = datastore[currAuto]["data"]["poids_lait_cuve"]
-    poids_lait_cuve = round(random.uniform(3512, 4607))
 
     data = {
         "temp_cuve" : round(random.uniform(2.5, 4), 1),
         "temp_ext" : round(random.uniform(8, 14), 1),
-        "poids_lait_cuve" : poids_lait_cuve,
-        #"poids_produit" : abs(poids_lait_cuve_old - poids_lait_cuve),
+        "poids_lait_cuve" : round(random.uniform(3512, 4607)),
         "poids_produit" : 0,
         "mesure_ph" : round(random.uniform(6.8, 7.2), 1),
         "mesure_k" : round(random.uniform(35, 47)),
