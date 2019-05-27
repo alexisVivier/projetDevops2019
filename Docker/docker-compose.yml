@@ -55,3 +55,9 @@ services:
     networks:
       testing_net:
           ipv4_address: 172.17.111.75
+networks:
+  testing_net:
+      ipam:
+          driver: default
+          config:
+              - subnet: 172.17.111.0/26
