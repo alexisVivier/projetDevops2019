@@ -8,8 +8,8 @@ services:
       dockerfile: ./concentrator/Dockerfile
     container_name: concentrator
     networks:
-      testing_net:
-          ipv4_address: 172.17.111.12
+        custom_netowrk:
+          ipv4_address: 172.20.0.10
 
   unit1:
     build:
@@ -41,8 +41,8 @@ services:
       dockerfile: ./units/unit5/Dockerfile
     container_name: unit5
 networks:
-  testing_net:
+  custom_netowrk:
       ipam:
           driver: default
           config:
-              - subnet: 172.17.111.0/16
+              - subnet: 172.20.0.0/16
