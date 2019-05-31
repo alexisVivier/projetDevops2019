@@ -13,7 +13,7 @@ if '../config/conf.json':
 
 finalData = {"unitNumber" : confstore["unitNumber"],}
 
-oldFileName = "1_" + str(datetime.datetime.now() - datetime.timedelta(minutes=1))
+# oldFileName = "1_" + str(datetime.datetime.now() - datetime.timedelta(minutes=1))
 
 while i <= 10:
 
@@ -53,13 +53,13 @@ with open("%s.json" % fileName, 'w') as outfile:
     json.dump(finalData, outfile)
 
 
-hote = "localhost"
-port = 15555
+# hote = "localhost"
+# port = 15555
 
-socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-socket.connect((hote, port))
+# socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# socket.connect((hote, port))
 
-fp = open(fileName, 'rb')
-socket.send(fp.read())
+# fp = open(fileName, 'rb')
+# socket.send(fp.read())
 
-socket.close()
+# socket.close()

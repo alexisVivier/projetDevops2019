@@ -53,14 +53,13 @@ fileName = "1_" + str(time.time()) + ""
 with open("%s.json" % fileName, 'w') as outfile:
     json.dump(finalData, outfile)
 
+# hote = "localhost"
+# port = 15555
 
-hote = "localhost"
-port = 15555
+# socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# socket.connect((hote, port))
 
-socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-socket.connect((hote, port))
+# fp = open(fileName, 'rb')
+# socket.send(fp.read())
 
-fp = open(fileName, 'rb')
-socket.send(fp.read())
-
-socket.close()
+# socket.close()
