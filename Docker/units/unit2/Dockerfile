@@ -8,6 +8,6 @@ ADD ./units/unit2/script.py /home/scripts/
 ADD ./units/unit2/initialize.py /home/scripts/
 
 # On copie le fichier de conf de l'unité
-ADD ./units/unit2/conf.json /home/config/
+ADD ./units/unit2/conf.json /home/scripts/
 
 CMD [ "python", "/home/scripts/initialize.py" ]
