@@ -51,16 +51,19 @@ while i <= 10:
 fileName = "1_" + str(time.time()) + ""
 
 with open("%s.json" % fileName, 'w') as outfile:
-    json.dump(finalData, outfile)
+    json.dump(finalData, outfile, indent=1)
 
 
-hote = "172.28.1.3"
-port = 1111
 
-socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-socket.connect((hote, port))
+#Partie envoi de donnees
+#Connexion 
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("172.28.1.3", 1111)) 
+file = fileName 
+#Envoi
+with open(file, 'rb') as _file: 
+    s.send(_file.read()) 
 
-fp = open(fileName, 'rb')
-socket.send(fp.read())
+print("Le fichier a ete correctement ete envoye au serveur : %s." % file) 
 
-socket.close()
+s.recv(2048)
