@@ -55,7 +55,7 @@ with open("%s.json" % fileName, 'w') as outfile:
 
 
 hote = "172.28.1.3"
-port = 15555
+port = 1111
 
 socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 socket.connect((hote, port))
