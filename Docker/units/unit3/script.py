@@ -7,8 +7,8 @@ import socket
 
 i = 1
 
-if '../config/conf.json':
-        with open('../config/conf.json', 'r') as f:
+if './conf.json':
+        with open('./conf.json', 'r') as f:
             confstore = json.load(f)
 
 finalData = {"unitNumber" : confstore["unitNumber"],}
@@ -54,7 +54,7 @@ with open("%s.json" % fileName, 'w') as outfile:
     json.dump(finalData, outfile, indent=1)
 
 
-hote = "172.17.111.70"
+hote = "172.28.1.3"
 port = 15555
 
 socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
