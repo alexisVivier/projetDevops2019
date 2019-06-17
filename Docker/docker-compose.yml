@@ -10,6 +10,8 @@ services:
     networks:
       network_usine:
           ipv4_address: 172.28.1.3
+    ports:
+          - "15555:15555"
 
   unit1:
     build:
