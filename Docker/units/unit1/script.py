@@ -58,7 +58,7 @@ with open("%s.json" % fileName, 'w') as outfile:
 #Partie envoi de donnees
 #Connexion 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("172.28.1.3", 1111)) 
+s.connect(("172.28.1.3", 1111))
 file = fileName 
 #Envoi
 with open(file, 'rb') as _file: 
