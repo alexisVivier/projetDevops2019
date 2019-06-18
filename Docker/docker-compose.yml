@@ -14,31 +14,31 @@ services:
   unit1:
     build:
       context: .
-      dockerfile: ./units/unit1/Dockerfile
+      dockerfile: ./scripts/Dockerfile
     container_name: unit1
 
   unit2:
     build:
       context: .
-      dockerfile: ./units/unit2/Dockerfile
+      dockerfile: ./scripts/Dockerfile
     container_name: unit2
 
   unit3:
     build:
       context: .
-      dockerfile: ./units/unit3/Dockerfile
+      dockerfile: ./scripts/Dockerfile
     container_name: unit3
 
   unit4:
     build:
       context: .
-      dockerfile: ./units/unit4/Dockerfile
+      dockerfile: ./scripts/Dockerfile
     container_name: unit4
 
   unit5:
     build:
       context: .
-      dockerfile: ./units/unit5/Dockerfile
+      dockerfile: ./scripts/Dockerfile
     container_name: unit5
 
 networks:

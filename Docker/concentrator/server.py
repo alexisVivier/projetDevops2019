@@ -17,7 +17,7 @@ class ClientThread(threading.Thread):
    
         print("Connexion de %s %s" % (self.ip, self.port, ))
 
-        r = self.clientsocket.recv(2048)
+        r = self.clientsocket.recv(999999)
         print("Ouverture du fichier: ", r, "...")
         fp = open(r, 'rb')
         self.clientsocket.send(fp.read())
