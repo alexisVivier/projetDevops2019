@@ -51,12 +51,11 @@
     <vs-tabs position="left" alignment="left">
       <vs-tab label="Température cuve">
         <div class="con-tab-ejemplo">
-          <apexcharts width="1100" height="350" type="line" :options="chartOptionsArea" :series="series"></apexcharts>
+          <chartBrush></chartBrush>
         </div>
       </vs-tab>
       <vs-tab label="Température extérieure">
         <div class="con-tab-ejemplo">
-          <chartBrush></chartBrush>
         </div>
       </vs-tab>
       <vs-tab label="Poids lait en cuve">
@@ -89,69 +88,15 @@
 </template>
 
 <script>
-  import VueApexCharts from "vue-apexcharts";
   import ChartBrush from "../components/ChartBrush.component";
 
   export default {
     components: {
       ChartBrush,
-      apexcharts: VueApexCharts
     },
     data: function() {
       return {
-        chartOptionsArea: {
-          chart: {
-            id: "basic-bar"
-          },
-          xaxis: {
-            categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
-          },
-          legend: {
-            position: "top",
-            horizontalAlign: "left",
-            offsetX: 25
-          },
-          yaxis: [
-            {
-              axisTicks: {
-                show: true
-              },
-              axisBorder: {
-                show: true,
-                color: "#008FFB"
-              },
-              labels: {
-                style: {
-                  color: "#008FFB"
-                }
-              },
-              title: {
-                text: "Degrés Celsius (°C)",
-                style: {
-                  color: "#008FFB"
-                }
-              },
-              tooltip: {
-                enabled: true
-              }
-            }
-          ]
-        },
-        series: [
-          {
-            name: "Automate n°1",
-            data: [30, 40, 45, 50, 49, 60, 70, 91]
-          },
-          {
-            name: "Automate n°2",
-            data: [28, 29, 33, 36, 32, 32, 33, 44]
-          },
-          {
-            name: "Automate n°3",
-            data: [45, 52, 38, 24, 33, 26, 21, 20]
-          }
-        ]
-      };
+      }
     }
   };
 </script>
