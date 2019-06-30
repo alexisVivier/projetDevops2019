@@ -50,17 +50,18 @@ for i in range(1,10) :
 fileName = "1_" + str(time.time()) + ".json"
 
 with open("%s.json" % fileName, 'w+') as outfile:
-    hote = "172.28.1.3"
-    port = 1111
-
-    socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    socket.connect((hote, port))
-
     json.dump(finalData, outfile)
-    socket.send(outfile.read())
 
-    socket.recv(2048)
+hote = "172.28.1.3"
+port = 1111
 
-    socket.close()
+socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+socket.connect((hote, port))
 
+with open(fileName, 'rb') as _file:
+    socket.send(_file.read())
+
+socket.recv(2048)
+
+socket.close()
 
