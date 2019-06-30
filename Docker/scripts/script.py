@@ -8,15 +8,14 @@ import datetime
 import socket
 import calendar
 
-
 with open('conf.json', 'r') as f:
     confstore = json.load(f)
 
-finalData = {"unitNumber": confstore["unitNumber"], automatas: []}
+finalData = {}
 
 # oldFileName = "1_" + str(datetime.datetime.now() - datetime.timedelta(minutes=1))
 
-for i in range(1,10) :
+for i in range(1, 10):
     # if 'data.json':
     #     with open("%s.json" % oldFileName, 'r') as f:
     #         datastore = json.load(f)
@@ -40,14 +39,14 @@ for i in range(1,10) :
         "n_bact_listeria": round(random.uniform(28, 54)),
     }
 
-    finalData[automatas][currAuto] = {
+    finalData[currAuto] = {
+                              "unitNumber": confstore["unitNumber"],
                               "automataNumber": confstore["automata"][currAuto]["automataNumber"],
                               "automataType": confstore["automata"][currAuto]["automataType"],
                               "data": data
                           },
 
     i += 1
-
 
 time = calendar.timegm(time.gmtime())
 fileName = "1_" + str(time) + ".json"
@@ -67,4 +66,3 @@ with open(fileName, 'rb') as _file:
 socket.recv(2048)
 
 socket.close()
-
