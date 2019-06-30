@@ -1,5 +1,5 @@
 # On pull l'image python taggé en version 3 depuis le repository Docker
-FROM python:3.5
+FROM python:3.7
 
 WORKDIR /usr/src/app
 

@@ -1,7 +1,9 @@
 FROM python:3.7
 
-ADD ./concentrator/server.py /home/scripts/
+WORKDIR /usr/src/app
+
+ADD ./concentrator/server.py .
 
 EXPOSE 1111
 
-CMD [ "python", "/home/scripts/server.py" ]
+CMD [ "python", "server.py" ]
