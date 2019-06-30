@@ -8,10 +8,10 @@ import datetime
 import socket
 
 
-# with open('conf.json', 'r') as f:
-#     confstore = json.load(f)
-#
-# finalData = {"unitNumber": confstore["unitNumber"], }
+with open('conf.json', 'r') as f:
+    confstore = json.load(f)
+
+finalData = {"unitNumber": confstore["unitNumber"], }
 
 # oldFileName = "1_" + str(datetime.datetime.now() - datetime.timedelta(minutes=1))
 
