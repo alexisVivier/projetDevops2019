@@ -47,7 +47,7 @@ for i in range(1,10) :
 
     i += 1
 
-fileName = "1_" + str(time.time())
+fileName = "1_" + str(time())
 
 with open("%s.json" % fileName, 'w+') as outfile:
     json.dump(finalData, outfile)
