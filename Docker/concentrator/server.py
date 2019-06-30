@@ -32,8 +32,8 @@ class ClientThread(threading.Thread):
             cursor = cnx.cursor()
 
             insert = ("INSERT INTO automate "
-                      "(automate_number, automate_type, temp_cuve, temp_ext, poids_lait_cuve, poids_produit, mesure_ph, mesure_k, NaCi, n_bact_salmon, n_bact_listeria)"
-                      "VALUES (%(NUMBER)s, %(TYPE)s, %(TEMP_CUVE)s, %(TEMP_EXT)s, %(PLC)s, , %(PP)s, %(MPH)s, %(MK)s, %(NaCi)s, %(NBSALMON)s, %(NBECOLI)s, %(NBLISTERIA)s)"
+                      "(unit_number, automate_number, automate_type, temp_cuve, temp_ext, poids_lait_cuve, poids_produit, mesure_ph, mesure_k, NaCi, n_bact_salmon, n_bact_listeria)"
+                      "VALUES (%(UNITNUMBER)s, %(NUMBER)s, %(TYPE)s, %(TEMP_CUVE)s, %(TEMP_EXT)s, %(PLC)s, , %(PP)s, %(MPH)s, %(MK)s, %(NaCi)s, %(NBSALMON)s, %(NBECOLI)s, %(NBLISTERIA)s)"
                       )
 
             data = {
