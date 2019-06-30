@@ -57,6 +57,9 @@ class ClientThread(threading.Thread):
                 'NBECOLI': automate['n_bact_ecoli'],
                 'NBLISTERIA': automate['n_bact_listeria'],
             }
+            
+            print("data")
+            print(data)
 
             cursor.execute(insert, data)
             cnx.commit()
