@@ -40,7 +40,7 @@ for i in range(1, 10):
                            "NaCi": round(random.uniform(1, 1.7), 1),
                            "n_bact_salmon": round(random.uniform(17, 37)),
                            "n_bact_ecoli": round(random.uniform(35, 49)),
-                           "n_bact_listeria": round(random.uniform(28, 54)),
+                           # "n_bact_listeria": round(random.uniform(28, 54)),
                        }
                    },
 
