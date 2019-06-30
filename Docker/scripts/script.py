@@ -12,6 +12,7 @@ with open('conf.json', 'r') as f:
     confstore = json.load(f)
 
 finalData = []
+data = {}
 
 # oldFileName = "1_" + str(datetime.datetime.now() - datetime.timedelta(minutes=1))
 
@@ -25,7 +26,7 @@ for i in range(1, 10):
     # poids_lait_cuve_old = datastore[currAuto]["data"]["poids_lait_cuve"]
     # poids_lait_cuve = round(random.uniform(3512, 4607))
 
-    finalData[i] = {
+    data = {
         "unitNumber": confstore["unitNumber"],
         "automataNumber": confstore["automata"][currAuto]["automataNumber"],
         "automataType": confstore["automata"][currAuto]["automataType"],
@@ -41,6 +42,8 @@ for i in range(1, 10):
         "n_bact_ecoli": round(random.uniform(35, 49)),
         "n_bact_listeria": round(random.uniform(28, 54)),
     }
+
+    finalData.append(data)
 
     i += 1
 
