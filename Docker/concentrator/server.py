@@ -26,7 +26,6 @@ class ClientThread(threading.Thread):
         file = json.loads(r.decode('utf-8'))
 
         for automate in file:
-            print(automate)
             cnx = mysql.connector.connect(user='root', password='MariaDBroot2019', host='192.168.180.147',
                                           database='devops')
             cursor = cnx.cursor()
