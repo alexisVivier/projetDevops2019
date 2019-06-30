@@ -19,6 +19,8 @@ class ClientThread(threading.Thread):
         print("Connexion de %s %s" % (self.ip, self.port,))
 
         r = self.clientsocket.recv(999999)
+        print("Ouverture du fichier")
+        print(r.decode('utf-8'))
 
         self.clientsocket.send('Fichier correctement recu'.encode('utf-8'))
 
