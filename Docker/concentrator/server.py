@@ -20,7 +20,7 @@ class ClientThread(threading.Thread):
 
         r = self.clientsocket.recv(999999)
         print("Ouverture du fichier")
-        print(r.decode('utf-8'))
+        #print(r.decode('utf-8'))
 
         self.clientsocket.send('Fichier correctement recu'.encode('utf-8'))
 
@@ -29,6 +29,7 @@ class ClientThread(threading.Thread):
         for automate in file:
             cnx = mysql.connector.connect(user='root', password='MariaDBroot2019', host='192.168.180.147',
                                           database='devops')
+            print(automate)
             cursor = cnx.cursor()
 
             insert = ("INSERT INTO automate "
