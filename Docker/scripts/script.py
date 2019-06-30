@@ -8,12 +8,12 @@ import socket
 i = 1
 
 if './conf.json':
-        with open('./conf.json', 'r') as f:
-            confstore = json.load(f)
+    with open('./conf.json', 'r') as f:
+        confstore = json.load(f)
 
 finalData = {"unitNumber" : confstore["unitNumber"],}
 
-oldFileName = "1_" + str(datetime.datetime.now() - datetime.timedelta(minutes=1))
+# oldFileName = "1_" + str(datetime.datetime.now() - datetime.timedelta(minutes=1))
 
 while i <= 10:
 
@@ -48,9 +48,7 @@ while i <= 10:
 
     i+=1
 
-fileName = "1_" + str(time.time()) + ""
-
-
+fileName = "1_" + str(time.time()) + ".json"
 
 
 hote = "172.28.1.3"
