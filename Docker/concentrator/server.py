@@ -22,7 +22,6 @@ class ClientThread(threading.Thread):
 
         r = self.clientsocket.recv(999999)
         print("Ouverture du fichier")
-        # print(r.decode('utf-8'))
 
         self.clientsocket.send('Fichier correctement recu'.encode('utf-8'))
 
@@ -60,6 +59,9 @@ class ClientThread(threading.Thread):
                 'NBECOLI': automate['n_bact_ecoli'],
                 'NBLISTERIA': automate['n_bact_listeria'],
             }
+            
+            print("data")
+            print(data)
 
             cursor.execute(insert, data)
             cnx.commit()
