@@ -18,6 +18,8 @@ services:
     container_name: unit1
     networks:
       - network_usine
+    depends_on:
+      - concentrator
 
   unit2:
     build:
@@ -26,6 +28,8 @@ services:
     container_name: unit2
     networks:
       - network_usine
+    depends_on:
+      - concentrator
 
   unit3:
     build:
@@ -34,6 +38,8 @@ services:
     container_name: unit3
     networks:
       - network_usine
+    depends_on:
+      - concentrator
 
   unit4:
     build:
@@ -42,6 +48,8 @@ services:
     container_name: unit4
     networks:
       - network_usine
+    depends_on:
+      - concentrator
 
   unit5:
     build:
@@ -50,6 +58,8 @@ services:
     container_name: unit5
     networks:
       - network_usine
+    depends_on:
+      - concentrator
 
 networks:
   network_usine:
