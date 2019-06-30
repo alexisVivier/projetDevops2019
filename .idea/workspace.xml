@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Docker/scripts/script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="330">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -172,12 +172,12 @@
       <option name="presentableId" value="Default" />
       <updated>1561900731272</updated>
       <workItem from="1561900735271" duration="23000" />
-      <workItem from="1561900813884" duration="2048000" />
+      <workItem from="1561900813884" duration="2355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2071000" />
+    <option name="totallyTimeSpent" value="2378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -229,8 +229,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Docker/scripts/script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="330">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
