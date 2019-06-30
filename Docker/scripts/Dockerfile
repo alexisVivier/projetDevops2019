@@ -12,6 +12,6 @@ ADD ./scripts/initialize.py /home/scripts/
 # On copie le fichier de conf de l'unité
 ADD ./units/unit2/conf.json /home/scripts/
 
-RUN py --version
+RUN python --version
 
 CMD [ "python", "/home/scripts/initialize.py" ]
