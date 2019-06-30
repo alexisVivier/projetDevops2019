@@ -31,6 +31,7 @@ class ClientThread(threading.Thread):
         for automate in file:
 
             print("cc")
+            print(automate)
 
             cnx = mysql.connector.connect(user='root', password='MariaDBroot2019', host='192.168.180.147',
                                           database='devops')
