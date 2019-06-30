@@ -19,7 +19,6 @@ class ClientThread(threading.Thread):
         print("Connexion de %s %s" % (self.ip, self.port, ))
 
         r = self.clientsocket.recv(999999)
-        print("Ouverture du fichier: ", r, "...")
         print(r.decode('utf-8'))
 
         self.clientsocket.send('Fichier correctement recu'.encode('utf-8'))
@@ -28,6 +27,7 @@ class ClientThread(threading.Thread):
 
         for automates in data:
             for automate in automates:
+                print(automate)
                 cnx = mysql.connector.connect(user='root', password='MariaDBroot2019', host='192.168.180.147', database='devops')
                 cursor = cnx.cursor()
 
