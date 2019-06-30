@@ -11,7 +11,7 @@ import calendar
 with open('conf.json', 'r') as f:
     confstore = json.load(f)
 
-finalData = {}
+finalData = []
 
 # oldFileName = "1_" + str(datetime.datetime.now() - datetime.timedelta(minutes=1))
 
