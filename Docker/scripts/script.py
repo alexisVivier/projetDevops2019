@@ -41,8 +41,8 @@ while i <= 10:
     }
     
     finalData[currAuto] = {
-            "automateNumber" : confstore["automate"][currAuto]["automateNumber"],
-            "automateType" : confstore["automate"][currAuto]["automateType"],
+            "automataNumber" : confstore["automata"][currAuto]["automataNumber"],
+            "automataType" : confstore["automata"][currAuto]["automataType"],
             "data" : data
         },
 
