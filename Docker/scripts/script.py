@@ -50,9 +50,9 @@ for i in range(1,10) :
 
 
 time = calendar.timegm(time.gmtime())
-fileName = "1_" + str(time)
+fileName = "1_" + str(time) + ".json"
 
-with open("%s.json" % fileName, 'w+') as outfile:
+with open(fileName, 'w+') as outfile:
     json.dump(finalData, outfile)
 
 hote = "172.28.1.3"
