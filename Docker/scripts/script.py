@@ -55,7 +55,7 @@ port = 1111
 socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 socket.connect((hote, port))
 
-with open("%s.json" % fileName, 'w') as outfile:
+with open("%s.json" % fileName, 'w+') as outfile:
     json.dump(finalData, outfile)
     socket.send(outfile.read())
 
