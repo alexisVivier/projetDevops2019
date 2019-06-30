@@ -25,6 +25,8 @@ class ClientThread(threading.Thread):
 
         file = json.loads(r.decode('utf-8'))
 
+        print(file)
+
         for automate in file:
 
             print("cc")
