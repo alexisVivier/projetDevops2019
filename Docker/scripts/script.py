@@ -12,7 +12,7 @@ import calendar
 with open('conf.json', 'r') as f:
     confstore = json.load(f)
 
-finalData = {"unitNumber": confstore["unitNumber"], }
+finalData = {"unitNumber": confstore["unitNumber"], automatas: []}
 
 # oldFileName = "1_" + str(datetime.datetime.now() - datetime.timedelta(minutes=1))
 
@@ -40,7 +40,7 @@ for i in range(1,10) :
         "n_bact_listeria": round(random.uniform(28, 54)),
     }
 
-    finalData[currAuto] = {
+    finalData[automatas][currAuto] = {
                               "automataNumber": confstore["automata"][currAuto]["automataNumber"],
                               "automataType": confstore["automata"][currAuto]["automataType"],
                               "data": data
