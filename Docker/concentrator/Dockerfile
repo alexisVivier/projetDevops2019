@@ -6,4 +6,4 @@ ADD ./concentrator/server.py .
 
 EXPOSE 1111
 
-CMD [ "python", "server.py" ]
+CMD [ "python", "./server.py" ]
