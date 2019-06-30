@@ -21,7 +21,7 @@ class ClientThread(threading.Thread):
         r = self.clientsocket.recv(999999)
         print("Ouverture du fichier: ", r, "...")
         print(r.decode('utf-8'))
-        fp = open(r, 'rb')
+
         self.clientsocket.send('Fichier correctement recu'.encode('utf-8'))
 
         data = json.loads(r.decode('utf-8'))
