@@ -14,7 +14,7 @@ services:
   unit1:
     build:
       context: .
-      dockerfile: ./scripts/Dockerfile
+      dockerfile: ./units/unit1/Dockerfile
     container_name: unit1
     networks:
       - network_usine
@@ -24,7 +24,7 @@ services:
   unit2:
     build:
       context: .
-      dockerfile: ./scripts/Dockerfile
+      dockerfile: ./units/unit2/Dockerfile
     container_name: unit2
     networks:
       - network_usine
@@ -34,7 +34,7 @@ services:
   unit3:
     build:
       context: .
-      dockerfile: ./scripts/Dockerfile
+      dockerfile: ./units/unit3/Dockerfile
     container_name: unit3
     networks:
       - network_usine
@@ -44,7 +44,7 @@ services:
   unit4:
     build:
       context: .
-      dockerfile: ./scripts/Dockerfile
+      dockerfile: ./units/unit4/Dockerfile
     container_name: unit4
     networks:
       - network_usine
@@ -54,7 +54,7 @@ services:
   unit5:
     build:
       context: .
-      dockerfile: ./scripts/Dockerfile
+      dockerfile: ./units/unit5/Dockerfile
     container_name: unit5
     networks:
       - network_usine
