@@ -16,7 +16,7 @@ data = {}
 
 # oldFileName = "1_" + str(datetime.datetime.now() - datetime.timedelta(minutes=1))
 
-for i in range(1, 10):
+for i in range(1, 11):
     # if 'data.json':
     #     with open("%s.json" % oldFileName, 'r') as f:
     #         datastore = json.load(f)
