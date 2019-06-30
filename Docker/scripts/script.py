@@ -20,7 +20,7 @@ for i in range(1, 10):
     #     with open("%s.json" % oldFileName, 'r') as f:
     #         datastore = json.load(f)
 
-    # currAuto = "automata" + str(i)
+    currAuto = "automata" + str(i)
 
     # poids_lait_cuve_old = datastore[currAuto]["data"]["poids_lait_cuve"]
     poids_lait_cuve = round(random.uniform(3512, 4607))
