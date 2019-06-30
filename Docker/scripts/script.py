@@ -8,7 +8,7 @@ import datetime
 import socket
 
 
-with open('./conf.json', 'r') as f:
+with open('conf.json', 'r') as f:
     confstore = json.load(f)
 
 finalData = {"unitNumber": confstore["unitNumber"], }

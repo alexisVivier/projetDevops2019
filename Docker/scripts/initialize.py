@@ -2,5 +2,5 @@ import os
 import time
 
 while True:
-    os.system("/home/scripts/script.py")
+    os.system("./script.py")
     time.sleep(60)
