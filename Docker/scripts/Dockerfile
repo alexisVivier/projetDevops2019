@@ -13,6 +13,6 @@ ADD ./units/unit2/conf.json /home/scripts/
 RUN chmod 755 /home/scripts/conf.json
 
 
-RUN py --version
+RUN python --version
 
 CMD [ "python", "/home/scripts/initialize.py" ]
