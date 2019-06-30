@@ -50,8 +50,7 @@ while i <= 10:
 
 fileName = "1_" + str(time.time()) + ""
 
-with open("%s.json" % fileName, 'w') as outfile:
-    json.dump(finalData, outfile)
+
 
 
 hote = "172.28.1.3"
@@ -60,7 +59,8 @@ port = 1111
 socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 socket.connect((hote, port))
 
-fp = open(fileName, 'rb')
-socket.send(fp.read())
+with open("%s.json" % fileName, 'w') as outfile:
+    json.dump(finalData, outfile)
+    socket.send(outfile.read())
 
-socket.close()
+socket.recv(2048)
