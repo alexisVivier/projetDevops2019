@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aba4230-9dbd-4260-8111-552cf7cd71bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/scripts/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/scripts/script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker/concentrator/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/concentrator/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker/concentrator/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/concentrator/server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Docker/scripts/script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+            <state relative-caret-position="346">
+              <caret line="37" column="22" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="22" />
               <folding>
                 <element signature="e#23#36#0" expanded="true" />
               </folding>
@@ -28,7 +28,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Docker/concentrator/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204" />
+            <state relative-caret-position="434">
+              <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -44,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Docker/concentrator/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="220">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -90,8 +92,9 @@
       <list>
         <option value="$PROJECT_DIR$/Docker/scripts/initialize.py" />
         <option value="$PROJECT_DIR$/Docker/scripts/Dockerfile" />
-        <option value="$PROJECT_DIR$/Docker/concentrator/Dockerfile" />
         <option value="$PROJECT_DIR$/Docker/scripts/script.py" />
+        <option value="$PROJECT_DIR$/Docker/concentrator/Dockerfile" />
+        <option value="$PROJECT_DIR$/Docker/concentrator/server.py" />
       </list>
     </option>
   </component>
@@ -215,12 +218,12 @@
       <option name="presentableId" value="Default" />
       <updated>1561900731272</updated>
       <workItem from="1561900735271" duration="23000" />
-      <workItem from="1561900813884" duration="5877000" />
+      <workItem from="1561900813884" duration="8004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5900000" />
+    <option name="totallyTimeSpent" value="8027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -287,22 +290,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Docker/concentrator/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Docker/concentrator/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="220">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docker/concentrator/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Docker/scripts/script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        <state relative-caret-position="346">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="22" />
           <folding>
             <element signature="e#23#36#0" expanded="true" />
           </folding>
