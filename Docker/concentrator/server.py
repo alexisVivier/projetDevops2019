@@ -23,9 +23,9 @@ class ClientThread(threading.Thread):
 
         self.clientsocket.send('Fichier correctement recu'.encode('utf-8'))
 
-        data = json.loads(r.decode('utf-8'))
+        file = json.loads(r.decode('utf-8'))
 
-        for automates in data:
+        for automates in file:
             for automate in automates:
                 print("cc")
                 cnx = mysql.connector.connect(user='root', password='MariaDBroot2019', host='192.168.180.147', database='devops')

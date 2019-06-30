@@ -53,7 +53,7 @@ time = calendar.timegm(time.gmtime())
 fileName = "1_" + str(time) + ".json"
 
 with open(fileName, 'w+') as outfile:
-    json.dump(finalData, outfile)
+    json.dump(finalData, outfile, indent=1)
 
 hote = "172.28.1.3"
 port = 1111
