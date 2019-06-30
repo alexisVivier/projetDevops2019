@@ -5,7 +5,6 @@ import os
 import datetime
 import socket
 
-i = 1
 
 with open('conf.json', 'r') as f:
     confstore = json.load(f)
@@ -14,7 +13,7 @@ finalData = {"unitNumber": confstore["unitNumber"], }
 
 # oldFileName = "1_" + str(datetime.datetime.now() - datetime.timedelta(minutes=1))
 
-while i <= 10:
+for i in range(1,10) :
     # if 'data.json':
     #     with open("%s.json" % oldFileName, 'r') as f:
     #         datastore = json.load(f)
