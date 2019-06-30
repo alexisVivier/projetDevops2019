@@ -16,30 +16,40 @@ services:
       context: .
       dockerfile: ./scripts/Dockerfile
     container_name: unit1
+    networks:
+      - network_usine
 
   unit2:
     build:
       context: .
       dockerfile: ./scripts/Dockerfile
     container_name: unit2
+    networks:
+      - network_usine
 
   unit3:
     build:
       context: .
       dockerfile: ./scripts/Dockerfile
     container_name: unit3
+    networks:
+      - network_usine
 
   unit4:
     build:
       context: .
       dockerfile: ./scripts/Dockerfile
     container_name: unit4
+    networks:
+      - network_usine
 
   unit5:
     build:
       context: .
       dockerfile: ./scripts/Dockerfile
     container_name: unit5
+    networks:
+      - network_usine
 
 networks:
   network_usine:
