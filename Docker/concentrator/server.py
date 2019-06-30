@@ -37,6 +37,11 @@ class ClientThread(threading.Thread):
 
             cnx = mysql.connector.connect(user='root', password='MariaDBroot2019', host='192.168.180.147',
                                           database='devops')
+
+
+            print("xx")
+            print(cnx)
+
             cursor = cnx.cursor()
 
             insert = ("INSERT INTO automate "
