@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4aba4230-9dbd-4260-8111-552cf7cd71bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/units/unit1/initialize.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/units/unit1/initialize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/units/unit2/initialize.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/units/unit2/initialize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/units/unit3/initialize.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/units/unit3/initialize.py" afterDir="false" />
-    </list>
+    <list default="true" id="4aba4230-9dbd-4260-8111-552cf7cd71bf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,24 +27,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Docker/units/unit2/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Docker/units/unit3/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -108,11 +85,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Docker/units/unit3/initialize.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
               <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Docker/units/unit4/initialize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Docker/units/unit5/initialize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -147,6 +148,8 @@
         <option value="$PROJECT_DIR$/Docker/units/unit1/initialize.py" />
         <option value="$PROJECT_DIR$/Docker/units/unit2/initialize.py" />
         <option value="$PROJECT_DIR$/Docker/units/unit3/initialize.py" />
+        <option value="$PROJECT_DIR$/Docker/units/unit4/initialize.py" />
+        <option value="$PROJECT_DIR$/Docker/units/unit5/initialize.py" />
       </list>
     </option>
   </component>
@@ -184,47 +187,6 @@
               <item name="projetDevops2019" type="462c0819:PsiDirectoryNode" />
               <item name="Docker" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projetDevops2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetDevops2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Docker" type="462c0819:PsiDirectoryNode" />
-              <item name="units" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projetDevops2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetDevops2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Docker" type="462c0819:PsiDirectoryNode" />
-              <item name="units" type="462c0819:PsiDirectoryNode" />
-              <item name="unit1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projetDevops2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetDevops2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Docker" type="462c0819:PsiDirectoryNode" />
-              <item name="units" type="462c0819:PsiDirectoryNode" />
-              <item name="unit2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projetDevops2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetDevops2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Docker" type="462c0819:PsiDirectoryNode" />
-              <item name="units" type="462c0819:PsiDirectoryNode" />
-              <item name="unit3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projetDevops2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetDevops2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Docker" type="462c0819:PsiDirectoryNode" />
-              <item name="units" type="462c0819:PsiDirectoryNode" />
-              <item name="unit4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projetDevops2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetDevops2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Docker" type="462c0819:PsiDirectoryNode" />
-              <item name="units" type="462c0819:PsiDirectoryNode" />
-              <item name="unit5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,16 +260,15 @@
       <option name="presentableId" value="Default" />
       <updated>1561900731272</updated>
       <workItem from="1561900735271" duration="23000" />
-      <workItem from="1561900813884" duration="20098000" />
+      <workItem from="1561900813884" duration="20816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20121000" />
+    <option name="totallyTimeSpent" value="20839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -506,6 +467,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docker/units/unit4/initialize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docker/units/unit5/initialize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
