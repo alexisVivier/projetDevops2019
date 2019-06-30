@@ -7,9 +7,8 @@ import socket
 
 i = 1
 
-if './conf.json':
-    with open('./conf.json', 'r') as f:
-        confstore = json.load(f)
+with open('conf.json', 'r') as f:
+    confstore = json.load(f)
 
 finalData = {"unitNumber" : confstore["unitNumber"],}
 
