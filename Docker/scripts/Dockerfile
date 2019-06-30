@@ -10,7 +10,7 @@ ADD ./scripts/initialize.py /home/scripts/
 
 # On copie le fichier de conf de l'unité
 ADD ./units/unit2/conf.json /home/scripts/
-RUN chmod 755 /home/scripts/conf.json
+RUN chmod 777 /home/scripts/conf.json
 
 
 RUN python --version
