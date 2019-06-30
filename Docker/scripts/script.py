@@ -59,4 +59,8 @@ with open("%s.json" % fileName, 'w+') as outfile:
     json.dump(finalData, outfile)
     socket.send(outfile.read())
 
-socket.recv(2048)
+    socket.recv(2048)
+
+    socket.close()
+
+
