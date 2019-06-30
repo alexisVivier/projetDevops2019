@@ -4,6 +4,8 @@ FROM python:3.7
 # On copie le script de génération de la donnée vers les conteneurs
 ADD ./scripts/script.py /home/scripts/
 
+RUN chmod 755 ./scripts/script.py
+
 # Copy du fichier qui va remplacer le cron
 ADD ./scripts/initialize.py /home/scripts/
 
