@@ -1,5 +1,5 @@
 # On pull l'image python taggé en version 3 depuis le repository Docker
-FROM python:3.7
+FROM python:3.5
 
 # On copie le script de génération de la donnée vers les conteneurs
 ADD ./scripts/script.py /home/scripts/
