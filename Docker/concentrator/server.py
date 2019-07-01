@@ -34,7 +34,7 @@ class ClientThread(threading.Thread):
             print("cc")
             print(automate)
 
-            cnx = mysql.connector.connect(user='app', password='some_pass', host='172.17.229.138',
+            cnx = mysql.connector.connect(user='app', password='some_pass', host='172.17.229.140',
                                           database='devops')
 
             cursor = cnx.cursor()
