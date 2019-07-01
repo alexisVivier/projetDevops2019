@@ -13,4 +13,4 @@ app.listen(4200, function () {
     console.log('Example app listening on port 3000!')
 });
 
-app.use('/automates', automateRoute)
+app.use('/automates', automateRoute);

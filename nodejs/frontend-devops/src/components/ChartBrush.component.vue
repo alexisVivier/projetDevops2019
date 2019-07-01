@@ -162,7 +162,7 @@ export default {
                 }
             },
             xaxis: {                
-                min: new Date().setHours(new Date().getHours() - 1 ),
+                min: new Date().setHours(new Date().getHours() - 4 ),
                 max: new Date().getTime(),
                 type: 'datetime',
                 tooltip: {
