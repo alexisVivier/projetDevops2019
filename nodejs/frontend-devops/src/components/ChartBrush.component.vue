@@ -161,7 +161,9 @@ export default {
                 opacityTo: 0.1,
                 }
             },
-            xaxis: {
+            xaxis: {                
+                min: new Date().setHours(new Date().getHours() - 1 ),
+                max: new Date().getTime(),
                 type: 'datetime',
                 tooltip: {
                     enabled: false
