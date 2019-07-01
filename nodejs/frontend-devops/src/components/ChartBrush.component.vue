@@ -12,6 +12,8 @@
 <script>
 
 import VueApexCharts from "vue-apexcharts";
+import apiAutomate from '../api/automate';
+import axios from 'axios';
 
 export default {
     name: 'ChartBrush',
@@ -23,73 +25,43 @@ export default {
         series: [
             {
                 name: "Automate n°1",
-                data: this.generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 185, {
-                    min: 10,
-                    max: 90
-                })
+                data: []
             },
             {
                 name: "Automate n°2",
-                data: this.generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 185, {
-                    min: 10,
-                    max: 90
-                })
+                data: []
             },
             {
                 name: "Automate n°3",
-                data: this.generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 185, {
-                    min: 10,
-                    max: 90
-                })
+                data: []
             },
             {
                 name: "Automate n°4",
-                data: this.generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 185, {
-                    min: 10,
-                    max: 90
-                })
+                data: []
             },
             {
                 name: "Automate n°5",
-                data: this.generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 185, {
-                    min: 10,
-                    max: 90
-                })
+                data: []
             },
             {
                 name: "Automate n°6",
-                data: this.generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 185, {
-                    min: 10,
-                    max: 90
-                })
+                data: []
             },
             {
                 name: "Automate n°7",
-                data: this.generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 185, {
-                    min: 10,
-                    max: 90
-                })
+                data: []
             },
             {
                 name: "Automate n°8",
-                data: this.generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 185, {
-                    min: 10,
-                    max: 90
-                })
+                data: []
             },
             {
                 name: "Automate n°9",
-                data: this.generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 185, {
-                    min: 10,
-                    max: 90
-                })
+                data: []
             },
             {
                 name: "Automate n°10",
-                data: this.generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 185, {
-                    min: 10,
-                    max: 90
-                })
+                data: []
             }
         ],
         chartOptionsArea: {
@@ -172,8 +144,8 @@ export default {
                 selection: {
                 enabled: true,
                 xaxis: {
-                    min: new Date('19 Jun 2017').getTime(),
-                    max: new Date('14 Aug 2017').getTime()
+                    min: new Date().setHours(new Date().getHours() - 1 ),
+                    max: new Date().getTime()
                 }
                 },
             },
@@ -192,7 +164,7 @@ export default {
             xaxis: {
                 type: 'datetime',
                 tooltip: {
-                enabled: false
+                    enabled: false
                 }
             },
             yaxis: [
@@ -220,26 +192,27 @@ export default {
                     enabled: true
                 }
             }]
-        }
+        },
+        
     }
     },
 
     methods: {
-        generateDayWiseTimeSeries: function (baseval, count, yrange) {
-            var i = 0;
-            var series = [];
-            while (i < count) {
-            var x = baseval;
-            var y = Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
-
-            series.push([x, y]);
-            baseval += 86400000;
-            i++;
-            }
-
-            console.log(series)
-            return series;
+        getData() {
+            let url = 'http://localhost:3000/automates/get'
+            axios.get(url).then(res=>{
+                res.data.forEach(element => {
+                    this.series[element.automate_number - 1].data.push([new Date(element.timestamp).getTime() / 1000, element.temp_cuve])
+                });
+                console.log(this.series)
+            })
         }
+    },
+    mounted() {
+        this.getData();
+        let currentTime = new Date().getTime();
+        console.log(currentTime);
+        console.log(new Date().setHours(new Date().getHours() - 1 ));
     }
 }
 
