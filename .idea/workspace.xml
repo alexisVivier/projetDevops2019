@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4aba4230-9dbd-4260-8111-552cf7cd71bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/express/api/automate.js" beforeDir="false" afterPath="$PROJECT_DIR$/express/api/automate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/express/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/express/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="4aba4230-9dbd-4260-8111-552cf7cd71bf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodejs/frontend-devops/src/views/About.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4318" />
+            <state relative-caret-position="-3482" />
           </provider>
         </entry>
       </file>
@@ -274,13 +270,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26158000" />
+    <option name="totallyTimeSpent" value="26576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25500527" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25500527" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -293,7 +288,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.29877368" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.29877368" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -527,11 +522,6 @@
     <entry file="file://$PROJECT_DIR$/nodejs/frontend-devops/src/api/automate.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/frontend-devops/src/views/About.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4318" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodejs/frontend-devops/src/components/ChartBrush.component.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -547,6 +537,11 @@
         <state relative-caret-position="450">
           <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs/frontend-devops/src/views/About.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3482" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/express/api/automate.js">
