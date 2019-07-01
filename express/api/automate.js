@@ -11,18 +11,18 @@ let corsOption = {
 } 
 
 let connection = mysql.createConnection({
-    host     : 'localhost',
-    user     : 'root',
-    password : 'root',
+    host     : '172.17.229.140',
+    user     : 'app',
+    password : 'some_pass',
     database : 'devops',
-    port: '8889'
+    port: '3306'
 });
 
 connection.connect();
 
 router.get("/get", cors(corsOption), (req, res)=> {
-    console.log("Connected to database")
-    let query = 'SELECT * FROM automate;'
+    console.log("Connected to database");
+    let query = 'SELECT * FROM automate;';
     connection.query(query, (err, result, fields)=> {
         if (err) throw err;
         res.status(200).send(result)
